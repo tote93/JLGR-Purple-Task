@@ -1,0 +1,26 @@
+.paymentMethods {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding-top: 10vh;
+  justify-content: center;
+}
+.paymentMethods > img {
+  width: 85px;
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.05),
+    inset -4px -4px 10px rgba(255, 255, 255, 1),
+    4px 4px 10px rgba(0, 0, 0, 0.05);
+  margin: 1vh;
+  border-radius: 5px;
+  object-fit: contain;
+  margin-bottom: 2vh;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.paymentMethods > img:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}

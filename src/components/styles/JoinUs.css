@@ -1,0 +1,85 @@
+.joinUs {
+  background: #fff;
+  width: auto;
+  margin: 10vh 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3vh;
+}
+.joinUs > * {
+  margin-left: 5vw;
+}
+.joinUs__form {
+  flex: 0.3;
+  display: flex;
+  max-width: 400px;
+  background: rgb(236, 236, 236);
+  flex-direction: column;
+  padding: 25px;
+  margin: 0 10px;
+}
+.joinUs__form > div {
+  background: #fff;
+  margin: 5px;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+.joinUs__info {
+  flex: 0.6;
+  font-size: 1.2em;
+}
+
+.joinUs__info > h3 {
+  color: rgb(144, 144, 144);
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.joinUs__text {
+  color: #707070;
+  word-wrap: wrap;
+  font-size: 0.8em;
+  margin: 10px 0;
+}
+
+.joinUs__calendar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+.checkIcon,
+.joinUs__learning {
+  color: #00a48f;
+  font-size: 1.2em;
+}
+.calendar__subText {
+  color: rgb(112, 112, 112);
+}
+.btnRegister {
+  background: #c14fc1 !important;
+  height: auto;
+  padding: 17px !important;
+  color: #fff !important;
+  border: none;
+  margin: 0;
+}
+/* Material Ui  */
+.MuiInput-formControl,
+.MuiInputLabel-formControl {
+  margin-left: 10px !important;
+}
+.infoIcon,
+.calendarIcon {
+  font-size: 40px !important;
+  color: rgb(144, 144, 144);
+}
+
+.infoIcon {
+  font-size: 20px !important;
+}
+.listItem {
+  color: rgb(112, 112, 112);
+}

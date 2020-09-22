@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  flex-direction: column;
+  margin: 3vh 0;
+}
+.button__btn {
+  border: 1px solid #04a48f;
+  background-color: #fff;
+  color: black;
+  padding: 0 15px;
+  height: 3vh;
+  margin: 0 5px;
+  font-weight: 700;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btnActive {
+  background-color: #04a48f;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+.button__text {
+  text-align: center;
+  color: gray;
+  font-size: 1vw;
+  margin-top: 5px;
+}

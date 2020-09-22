@@ -1,0 +1,41 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__container {
+  display: flex;
+  min-width: 80vw;
+  align-items: center;
+  justify-content: center;
+}
+.about__container > img {
+  flex: 0.5;
+  max-width: 400px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0004);
+  object-fit: contain;
+}
+.about__info {
+  flex: 0.5;
+  margin: 20px;
+  line-height: 1.5;
+}
+.about__title {
+  font-size: 2.6em;
+  font-weight: 500;
+}
+.about__name {
+  font-size: 1.5em;
+  line-height: 3;
+  color: #59275a;
+}
+.about__position {
+  color: #02b9a1;
+  font-weight: 500;
+}
+.about__text {
+  color: rgb(173, 172, 172);
+  margin: 20px 5px;
+}
