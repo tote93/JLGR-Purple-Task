@@ -25,9 +25,9 @@
     <br />
     <a href="https://purple-jlgr.web.app/">View Demo</a>
     ·
-    <a href="https://github.com/tote93/Purple-Task/images/finalJob.png">Final Example</a>
+    <a href="https://raw.githubusercontent.com/tote93/Purple-Task/master/src/material/finalJob.png?token=AECYNCOPR7AAJ37G4XEVCOS7ONUZ2">Final Example</a>
     ·
-    <a href="https://github.com/tote93/Purple-Task/images/Proporsal_Design.png">Proposal design mockup</a>
+    <a href="https://raw.githubusercontent.com/tote93/Purple-Task/master/src/material/Proporsal_Design.png?token=AECYNCNU4XLPDIAIQ6RL7GK7ONUZI">Proposal design mockup</a>
   </p>
 </p>
 
@@ -115,3 +115,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Jose Luis Gordillo Relaño - [igorej](https://www.linkedin.com/in/i62gorej/) -igorej@hotmail.com
 
 Project Link: [https://github.com/tote93/Purple-Task)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
