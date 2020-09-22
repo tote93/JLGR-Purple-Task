@@ -1,0 +1,29 @@
+header {
+  background: green;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+.app > section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(3) {
+  background: rgb(248, 248, 248);
+}
+section:nth-child(4) {
+  background: #fff;
+}
+section:nth-child(5) {
+  background: rgb(248, 248, 248);
+}
+section:nth-child(6) {
+  background: #fff;
+}
+.MuiListItemIcon-root {
+  color: #00a48f !important;
+}
