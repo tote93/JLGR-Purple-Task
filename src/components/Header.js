@@ -8,11 +8,13 @@ function Header() {
   const toggle = () => {
     document.querySelector(".header").classList.toggle("active");
   };
-
+  const handleClick = () => {
+    window.location.href = "#home";
+  };
   return (
     <header className="header">
       <div className="header__logo">
-        <img src={logo} alt="Axiori Logo" />
+        <img src={logo} alt="Axiori Logo" onClick={handleClick} />
       </div>
       <div className="header__buttons">
         <Button text="MyAxiory" cname="" />

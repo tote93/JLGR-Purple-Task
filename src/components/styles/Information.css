@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  min-height: 70vh !important;
 }
 .information__content {
   text-align: center;
@@ -11,6 +12,7 @@
 }
 .information__socialMedia {
   margin: 25px;
+  transition: 0.3s;
 }
 .socialIcon {
   background: #b155b1;
@@ -41,4 +43,12 @@ button:nth-child(3) > .MuiButton-label > svg {
 }
 button:nth-child(4) > .MuiButton-label > svg {
   background: #da407b;
+}
+.information__socialMedia > button {
+  transition: all 0.3s;
+}
+.information__socialMedia > button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  transition: all 0.3s;
 }

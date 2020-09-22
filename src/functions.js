@@ -22,5 +22,6 @@ const isNotValid = (element) => {
 
 export const scrollToRegister = (place) => {
   window.location.href = `#${place}`;
-  document.querySelector(".header").classList.toggle("active");
+  const header = document.querySelector(".header");
+  if (header.classList.contains("active")) header.classList.toggle("active");
 };

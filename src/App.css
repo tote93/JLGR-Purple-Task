@@ -1,12 +1,5 @@
-header {
-  background: green;
-  height: 10vh;
-  width: 100%;
-  position: fixed;
-  z-index: 10000;
-}
 .app > section {
-  min-height: 100vh;
+  min-height: 80vh !important;
   display: flex;
   justify-content: center;
   align-items: center;
