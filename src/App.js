@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
 import Home from "./components/Home";
+import Header from "./components/Header";
 import JoinUs from "./components/JoinUs";
 import About from "./components/About";
+import Information from "./components/Information";
+import LegalText from "./components/LegalText";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className="app">
@@ -11,9 +15,9 @@ function App() {
       <Home />
       <JoinUs />
       <About />
-      {/* Info */}
-      {/* Legal Text */}
-      {/* Footer */}
+      <Information />
+      <LegalText />
+      <Footer />
     </div>
   );
 }
