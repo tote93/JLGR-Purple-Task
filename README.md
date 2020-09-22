@@ -114,7 +114,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Jose Luis Gordillo Relaño - [igorej](https://www.linkedin.com/in/i62gorej/) -igorej@hotmail.com
 
-Project Link: [https://github.com/tote93/Purple-Task)
+Project Link: [https://github.com/tote93/Purple-Task]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
