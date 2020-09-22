@@ -7,9 +7,12 @@ function Home() {
     backgroundImage: `url(${banner})`,
   };
   return (
-    <section style={style} className="home">
+    <section id="home" style={style} className="home">
       <div className="home__links">
-        Home | Markets | Markets Offered | CFD Indices
+        <a href="#home">Home&nbsp; &nbsp;| &nbsp;</a>
+        <a href="#joinUs">Markets&nbsp; &nbsp;| &nbsp;</a>
+        <a href="#about">Markets Offered&nbsp; &nbsp;| &nbsp;</a>
+        <a href="#cfd">CFD Indices&nbsp; &nbsp;</a>
       </div>
       <div className="home__info">
         <h1>

@@ -3,7 +3,7 @@ import ceo from "../images/autochartist-ceo.png";
 import "./styles/About.css";
 function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about__container">
         <img src={ceo} alt="Ilan Azbel Ceo" />
         <div className="about__info">

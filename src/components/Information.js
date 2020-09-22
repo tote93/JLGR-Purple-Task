@@ -7,7 +7,7 @@ import "./styles/Information.css";
 import { scrollToRegister } from "../functions";
 function Information() {
   return (
-    <section className="information">
+    <section id="cfd" className="information">
       <div className="information__content">
         <h2>Limited places are available!</h2>
         <h3>Join us in time</h3>
