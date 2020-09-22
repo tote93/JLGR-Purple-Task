@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import JoinUs from "./components/JoinUs";
 function App() {
   return (
     <div className="app">
       <Header />
       <Home />
-      {/* Join-us */}
+      <JoinUs />
       {/* About */}
       {/* Info */}
       {/* Legal Text */}
