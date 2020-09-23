@@ -4,12 +4,13 @@ import MuiPhoneNumber from "material-ui-phone-number";
 import Button from "./Button";
 import { checkForm } from "../functions";
 function RegisterForm() {
+  // Local variables to get the input values
   const [name, setName] = useState("");
   const [surName, setSurName] = useState("");
   const [email, setEmail] = useState("");
   const [country, setCountry] = useState("");
   const [phone, setPhone] = useState("");
-
+  // Submit form function
   const handleSubmit = () => {
     const arrayValues = [name, surName, email, country, phone];
     const arrayClassName = [

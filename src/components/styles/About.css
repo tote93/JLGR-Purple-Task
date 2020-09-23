@@ -1,14 +1,9 @@
-.about {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .about__container {
   display: flex;
   min-width: 80vw;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .about__container > img {
   flex: 0.5;
@@ -21,9 +16,13 @@
   flex: 0.5;
   margin: 20px;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .about__title {
-  font-size: 2.6em;
+  font-size: 2em;
   font-weight: 500;
 }
 .about__name {

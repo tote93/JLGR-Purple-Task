@@ -1,12 +1,10 @@
 .joinUs {
-  background: #fff;
   width: auto;
   margin: 10vh 0vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 3vh;
-  min-height: 80vh !important;
+  -webkit-box-shadow: -1px -25px 0px 4px rgba(248, 248, 248, 1);
+  -moz-box-shadow: -1px -25px 0px 4px rgba(248, 248, 248, 1);
+  box-shadow: -1px -25px 0px 4px rgba(248, 248, 248, 1);
 }
 .joinUs > * {
   margin-left: 5vw;
@@ -29,6 +27,7 @@
 .joinUs__info {
   flex: 0.6;
   font-size: 1.2em;
+  padding: 2rem;
 }
 
 .joinUs__info > h3 {

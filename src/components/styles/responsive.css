@@ -3,18 +3,12 @@
   section:nth-child(3) {
     margin-top: 20vh;
   }
-  .button__btn {
-    height: 9vh !important;
-  }
-  .button {
-    margin: 0 !important;
-  }
 }
 @media only screen and (max-width: 600px) {
+  /* Header CSS */
   .header {
     flex-direction: column;
     justify-content: flex-start;
-    transition: all 0.2s ease-in-out;
   }
   .header__toggle {
     display: flex;
@@ -48,37 +42,15 @@
   .active .header__toggle:after {
     display: none;
   }
-  /* Home Section CSS*/
 
+  /* Home Section CSS*/
   .home {
-    background-size: 500vw 100vh;
-    background-position: center;
-  }
-  .home__links {
-    font-size: 0.8em !important;
-    top: 5vh;
-  }
-  .home__info > h1 {
-    font-size: 1.5em;
+    background-size: 200vw 75vh !important;
   }
   .home__info {
-    /*  top: 8vh; */
-    width: 50vw;
     font-size: 0.9rem;
   }
-  .home__title {
-    font-size: 1.2rem;
-    line-height: 1.1;
-    font-weight: 900;
-  }
-  .button__btn {
-    font-size: 1.3em;
-    padding: 0 20px;
-    height: 7vh;
-  }
-  .button__text {
-    font-size: 1em;
-  }
+  /* Join Us CSS */
   .joinUs {
     flex-direction: column;
     margin-top: 5vh;
@@ -86,31 +58,14 @@
   .btnRegister {
     font-size: 0.7em;
   }
-  .joinUs__info {
-    padding-top: 30px;
-  }
-  .about__container {
-    flex-direction: column;
-  }
-  .about__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .about__title {
-    font-size: 2em !important;
-  }
-  .about__name {
-    font-size: 1.5em;
-    line-height: 1 !important;
-    color: #59275a;
-  }
+  /* About CSS */
   .about__container > img {
     max-width: 250px !important;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  /* Header CSS */
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -121,35 +76,15 @@
   .header__buttons > button {
     margin-top: 5vh !important;
   }
-
+  /* Home CSS */
   .home {
-    background-size: 300vw 100vh;
-    background-position: center;
+    background-size: 115vw 80vh !important;
   }
-  .home__links {
-    font-size: 0.8em !important;
-    top: 5vh;
-  }
-  .home__info > h1 {
-    font-size: 1.5em;
-  }
+
   .home__info {
-    width: 50vw;
     font-size: 0.9rem;
   }
-  .home__title {
-    font-size: 1.2rem;
-    line-height: 1.1;
-    font-weight: 900;
-  }
-  .button__btn {
-    font-size: 1.3em;
-    padding: 0 20px;
-    height: 7vh;
-  }
-  .button__text {
-    font-size: 1em;
-  }
+  /* Join Us */
   .joinUs {
     padding: 30px;
     flex-direction: column;
@@ -158,25 +93,14 @@
   .btnRegister {
     font-size: 0.7em;
   }
-  .joinUs__info {
-    padding-top: 30px;
-  }
-  .about__container {
-    flex-direction: column;
-  }
-  .about__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .about__name {
-    line-height: 1;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  /* Header CSS */
+  .home {
+    background-size: 100vw 85vh !important;
+  }
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -184,38 +108,13 @@
   .header__buttons {
     display: flex;
   }
-  .header__toggle {
-    display: none;
-  }
-  /* Home Section CSS*/
 
-  .home {
-    background-size: cover;
-    background-position: center;
-  }
-  .home__links {
-    font-size: 1.2em !important;
-  }
-  .home__info > h1 {
-    font-size: 1.5em;
-  }
-  .home__info {
-    top: 15vh;
-    width: 50vw;
-    font-size: 1.2rem;
-  }
+  /* Home CSS*/
   .home__title {
-    font-size: 2rem;
-  }
-  .button__btn {
-    font-size: 1em;
-    padding: 0 20px;
-    height: 7vh;
-  }
-  .button__text {
-    font-size: 1em;
+    font-size: 1.7em;
   }
 
+  /* Join Us CSS */
   .joinUs {
     padding-top: 00px !important;
     flex-direction: row;
@@ -223,49 +122,16 @@
   .btnRegister {
     font-size: 0.7em;
   }
-  .joinUs__info {
-    padding-top: 10px !important;
-  }
+  /* About CSS */
   .about__container {
-    flex-direction: row;
+    flex-direction: row !important;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .home {
-    background-size: 100vw 100vh;
-    background-position: center;
-  }
-  .home__links {
-    font-size: 1.2em !important;
-  }
-  .home__info > h1 {
-    font-size: 1.5em;
-  }
-  .home__info {
-    top: 15vh;
-    width: 50vw;
-    font-size: 1.2rem;
-  }
-  .home__title {
-    font-size: 2rem;
-  }
-  .button__btn {
-    font-size: 1em;
-    padding: 0 20px;
-    height: 7vh;
-  }
-  .button__text {
-    font-size: 1em;
-  }
+  /* Footer  */
   .footer__container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 160rem;
     display: flex;
     align-items: center;
     justify-content: space-around;

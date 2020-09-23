@@ -3,4 +3,19 @@
   margin: 0;
   box-sizing: border-box;
   user-select: none;
+  font-family: Room;
+}
+@font-face {
+  font-family: "Room";
+  src: url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.eot");
+  src: url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/75d3c790abf9bc43da1b0d15b1241023.svg#Room")
+      format("svg");
 }

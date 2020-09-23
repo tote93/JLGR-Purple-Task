@@ -3,6 +3,7 @@ import "./styles/JoinUs.css";
 import { TodayOutlined, InfoOutlined, Check } from "@material-ui/icons/";
 import { List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core/";
 import RegisterForm from "./RegisterForm";
+
 function JoinUs() {
   return (
     <section id="joinUs" className="joinUs">

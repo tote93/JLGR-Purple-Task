@@ -3,18 +3,16 @@ import "./styles/Header.css";
 import logo from "../images/axiory_logo.png";
 import Button from "./Button";
 import "./styles/responsive.css";
-import { scrollToRegister } from "../functions";
+import { scrollToRegister, toogle } from "../functions";
 function Header() {
-  const toggle = () => {
-    document.querySelector(".header").classList.toggle("active");
-  };
-  const handleClick = () => {
-    window.location.href = "#home";
-  };
   return (
     <header className="header">
       <div className="header__logo">
-        <img src={logo} alt="Axiori Logo" onClick={handleClick} />
+        <img
+          src={logo}
+          alt="Axiori Logo"
+          onClick={() => (window.location.href = "#home")}
+        />
       </div>
       <div className="header__buttons">
         <Button text="MyAxiory" cname="" />
@@ -24,7 +22,7 @@ function Header() {
           onClick={() => scrollToRegister("joinUs")}
         />
       </div>
-      <div className="header__toggle" onClick={toggle}>
+      <div className="header__toggle" onClick={() => toogle()}>
         <a className="header__anchor" href="/#">
           <span className="header__bars"></span>
         </a>

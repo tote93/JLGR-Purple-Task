@@ -3,8 +3,8 @@ import Button from "./Button";
 import PaymentMethods from "./PaymentMethods";
 import { Facebook, Twitter, LinkedIn, Instagram } from "@material-ui/icons/";
 import ButtonUi from "@material-ui/core/Button";
-import "./styles/Information.css";
 import { scrollToRegister } from "../functions";
+import "./styles/Information.css";
 function Information() {
   return (
     <section id="cfd" className="information">

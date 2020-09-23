@@ -1,8 +1,9 @@
 import React from "react";
-import banner from "../images/autochartist-main-banner.jpg";
 import "./styles/Home.css";
 import Button from "./Button";
+import banner from "../images/autochartist-main-banner.jpg";
 function Home() {
+  // Set the background image to the home container
   const style = {
     backgroundImage: `url(${banner})`,
   };
